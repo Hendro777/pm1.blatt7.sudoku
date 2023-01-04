@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=SudokuCheckerTest
+comment0.text=\n\ The\ test\ class\ SudokuCheckerTest.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=java.util.List\ data()
+comment1.text=\n\ BlueJ\ does\ not\ support\ parameterized\ tests\ (http\://bugs.bluej.org/browse/BLUEJ-364).\n
+comment2.params=n
+comment2.target=void\ init(int)
+comment3.params=
+comment3.target=void\ test_1_Zeile()
+comment4.params=
+comment4.target=void\ test_2_Spalte()
+comment5.params=
+comment5.target=void\ test_3_Quadrant()
+comment6.params=
+comment6.target=void\ test_4_ErkenntUnvollstaendig()
+comment7.params=
+comment7.target=void\ test_5_Gesamt()
+comment8.params=
+comment8.target=void\ test_6_Fehlerbehandlung()
+numComments=9

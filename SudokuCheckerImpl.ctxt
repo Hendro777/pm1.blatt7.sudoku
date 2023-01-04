@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=SudokuCheckerImpl
+comment0.text=\r\n\ Eine\ Klasse\ mit\ einer\ Dienstleister-Methode.\r\n\ Der\ Rumpf\ ist\ sinnvoll\ zu\ fuellen\!\r\n\ \r\n\ @author\ (Dein\ Name,\ Deine\ Matrikelnummer)\r\n\ @version\ 22.1.2020\r\n
+comment1.params=board
+comment1.target=boolean\ check(int[][])
+numComments=2
