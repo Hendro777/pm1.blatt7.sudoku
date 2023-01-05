@@ -1,6 +1,21 @@
 #BlueJ class context
 comment0.target=SudokuCheckerImpl
-comment0.text=\r\n\ Eine\ Klasse\ mit\ einer\ Dienstleister-Methode.\r\n\ Der\ Rumpf\ ist\ sinnvoll\ zu\ fuellen\!\r\n\ \r\n\ @author\ (Dein\ Name,\ Deine\ Matrikelnummer)\r\n\ @version\ 22.1.2020\r\n
+comment0.text=\n\ Eine\ Klasse\ mit\ einer\ Dienstleister-Methode.\n\ Der\ Rumpf\ ist\ sinnvoll\ zu\ fuellen\!\n\ \n\ @author\ Hendrik\ Lind\n\ @version\ 22.1.2020\n
 comment1.params=board
 comment1.target=boolean\ check(int[][])
-numComments=2
+comment1.text=\n\ Pr\u00FCft,\ ob\ die\ \u00FCbergeben\ Matrix\ eine\ korrekte\ Sudoko-L\u00F6sung\ ist\ oder\ nicht.\ \n\ <p>\n\ Eine\ Sudoko-L\u00F6sung\ besteht\ aus\ eine\ 9x9\ Matrix.\n\ Dabei\ kommen\ in\ <b>jeder\ Zeile</b>,\ in\ </b>jeder\ Spalte</b>\ und\ in\ jedem\n\ Quadranten\ (siehe\ oben)\ die\ Zahlen\ <b>1-9\ nur\ jeweils\ einmal</b>\ vor.\n\ <p>\n\ Beispiele\ zu\ falschen\ und\ korrekten\ L\u00F6sungen\ siehe\ oben.\n\ \n\ @param\ matrix\ zweidimensionales\ Array\ mit\ dem\ aktuellen\ Spielstand.\n\ @return\ true\ wenn\ die\ L\u00F6sung\ korrekt\ ist;<br/>\ \n\ \ \ \ \ \ \ \ \ false,\ wenn\ die\ L\u00F6sung\ fehlerhaft\ (oder\ unvollst\u00E4ndig)\ ist.\ \ \ \ \ \ \ \n\ @throws\ IllegalArgumentExeption\ wenn\ die\ Matrix\ nicht\ 9x9\ Felder\ gro\u00DF\ ist\ oder\n\ \ \ \ \ \ \ \ \ \ Werte\ au\u00DFerhalb\ des\ Intervalls\ [0..9]\ enth\u00E4lt.\ \ \ \ \ \ \ \ \ \ \ \ \n
+comment2.params=board
+comment2.target=boolean\ checkeAlleZeilen(int[][])
+comment2.text=\n\ \u00DCberpr\u00FCft,\ ob\ Zeilen\ in\ einem\ 9x9\ Sudokufeld\ doppelte\ Werte\ oder\ leere\ Felder\n\ enthalten.\n\ Gibt\ true\ zur\u00FCck,\ wenn\ keine\ Zeile\ doppelte\ Werte\ oder\ leere\ Felder\ enth\u00E4lt.\n\ Ansonsten\ false;\n\ \n\ @param\ board\n\ Zweidimensionaler\ int-Array\ zur\ Darstellung\ eines\ 9x9\ Sudokuspielfelds\n\ \n\ @return\ \n\ True,\ wenn\ keine\ Zeile\ doppelte\ Werte\ oder\ leere\ Felder\ enth\u00E4lt.\n\ Ansonsten\ false.\n
+comment3.params=zeile
+comment3.target=boolean\ checkeZeile(int[])
+comment3.text=\n\ \u00DCberpr\u00FCft,\ ob\ die\ Zeile\ eines\ 9x9\ Sudokufelds\ doppelte\ Werte\ oder\ \n\ leere\ Felder\ enth\u00E4lt.\n\ Gibt\ true\ zur\u00FCck,\ wenn\ die\ Zeile\ keine\ doppelten\ Werte\ oder\ leere\n\ Felder\ enth\u00E4lt.\ Ansonsten\ false.\n\ \n\ @param\ zeile\n\ Integer-Array\ der\ L\u00E4nge\ 9\ aus\ einem\ Sudokufeld\n
+comment4.params=board
+comment4.target=boolean\ checkeAlleSpalten(int[][])
+comment4.text=\n\ \u00DCberpr\u00FCft,\ ob\ Spalten\ in\ einem\ 9x9\ Sudokufeld\ doppelte\ Werte\ oder\ leere\ Felder\n\ enthalten.\n\ Gibt\ true\ zur\u00FCck,\ wenn\ keine\ Spalte\ doppelte\ Werte\ oder\ leere\ Felder\ enth\u00E4lt.\n\ Ansonsten\ false.\n\ \n\ @param\ board\n\ Zweidimensionaler\ int-Array\ zur\ Darstellung\ eines\ 9x9\ Sudokuspielfelds\n\ \n\ @return\ \n\ True,\ wenn\ keine\ Spalte\ doppelte\ Werte\ oder\ leere\ Felder\ enth\u00E4lt.\n\ Ansonsten\ false.\n
+comment5.params=board
+comment5.target=boolean\ checkeAlleQuadranten(int[][])
+comment5.text=\n\ \u00DCberpr\u00FCft,\ ob\ die\ ein\ 3x3\ Quadrant\ eines\ 9x9\ Sudokufelds\ doppelte\ Werte\ oder\ \n\ leere\ Felder\ enth\u00E4lt.\n\ Gibt\ true\ zur\u00FCck,\ wenn\ kein\ Quadrant\ doppelte\ Werte\ oder\ leere\n\ Felder\ enth\u00E4lt.\ Ansonsten\ false.\n\ \n\ @param\ board\n\ Zweidimensionaler\ int-Array\ zur\ Darstellung\ eines\ 9x9\ Sudokuspielfelds\n\ \n\ @return\ \n\ True,\ wenn\ kein\ Quadrant\ doppelte\ Werte\ oder\ leere\ Felder\ enth\u00E4lt.\n\ Ansonsten\ false.\n
+comment6.params=field
+comment6.target=boolean\ isNullField(int)
+numComments=7
